@@ -1,0 +1,8 @@
+"loading.text" = "Loading posts...";
+"error.offline.text" = "You seem to be offline. Please check your internet connection.";
+"error.loading.text" = "Error occurred while loading data.";
+"error.outdated.text" = "Please refresh data.";
+"error.noData.text" = "No data available";
+"title.posts" = "Posts";
+"tab.posts" = "Posts";
+"tab.info" = "Info";

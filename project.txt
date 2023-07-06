@@ -1,0 +1,130 @@
+.
+├── Commons
+│   ├── Dependencies
+│   │   ├── Package.resolved
+│   │   ├── Package.swift
+│   │   └── Sources
+│   │       └── Dependencies.swift
+│   ├── NetworkModule
+│   │   ├── Package.swift
+│   │   ├── Sources
+│   │   │   ├── APIEndpoint.swift
+│   │   │   ├── NetworkClient.swift
+│   │   │   ├── NetworkError.swift
+│   │   │   ├── NetworkService.swift
+│   │   │   ├── TestSupport
+│   │   │   │   └── MockNetworkClient.swift
+│   │   │   └── URLSessionProtocol.swift
+│   │   └── Tests
+│   │       ├── Mocks
+│   │       │   ├── MockAPIEndpoint.swift
+│   │       │   ├── MockNetworkService.swift
+│   │       │   └── MockURLSession.swift
+│   │       ├── NetworkClientTests.swift
+│   │       └── NetworkServiceTests.swift
+│   └── Utils
+│       ├── Package.swift
+│       └── Sources
+│           ├── Applyable.swift
+│           └── JSONDecoderFactory.swift
+├── Components
+│   ├── Package.swift
+│   └── Sources
+│       ├── Coordinating.swift
+│       ├── Extensions
+│       │   ├── UITableView+ReusableCell.swift
+│       │   ├── UIView+Constraints.swift
+│       │   └── UIView+Views.swift
+│       ├── SwiftUI
+│       │   ├── PillView.swift
+│       │   └── View+cornerRadius.swift
+│       ├── Theme
+│       │   ├── Appearance
+│       │   │   └── UITabBar+Appearance.swift
+│       │   ├── Colors.swift
+│       │   └── UIColor+Colors.swift
+│       └── UIKit
+│           └── MessageView.swift
+├── Core
+│   ├── CoreApp
+│   │   ├── Package.resolved
+│   │   ├── Package.swift
+│   │   └── Sources
+│   │       ├── AppCoordinator.swift
+│   │       ├── Resources
+│   │       │   ├── de.lproj
+│   │       │   │   └── Localizable.strings
+│   │       │   └── en.lproj
+│   │       │       └── Localizable.strings
+│   │       └── Translation.swift
+│   ├── Posts
+│   │   ├── AppDelegate.swift
+│   │   ├── Assets.xcassets
+│   │   ├── Base.lproj
+│   │   │   └── LaunchScreen.storyboard
+│   │   └── Info.plist
+│   └── Posts.xcodeproj
+├── Data
+│   └── Models
+│       ├── Package.swift
+│       └── Sources
+│           ├── Comment.swift
+│           └── Post.swift
+├── Features
+│   ├── Info
+│   │   ├── Package.swift
+│   │   └── Sources
+│   │       ├── InfoCoordinator.swift
+│   │       └── InfoViewController.swift
+│   ├── Login
+│   │   ├── Package.swift
+│   │   └── Sources
+│   │       ├── LoginCoordinator.swift
+│   │       ├── LoginViewController.swift
+│   │       └── SwiftUI
+│   │           └── LoginView.swift
+│   └── Posts
+│       ├── Package.resolved
+│       ├── Package.swift
+│       ├── Sources
+│       │   ├── Details
+│       │   │   ├── ViewModels
+│       │   │   │   └── PostDetailsViewModel.swift
+│       │   │   └── Views
+│       │   │       └── SwiftUI
+│       │   │           └── PostDetailsView.swift
+│       │   ├── List
+│       │   │   ├── PostListViewController.swift
+│       │   │   ├── ViewModels
+│       │   │   │   ├── PostCellViewModel.swift
+│       │   │   │   ├── PostListViewModel+Presentation.swift
+│       │   │   │   ├── PostListViewModel+Reachability.swift
+│       │   │   │   └── PostListViewModel.swift
+│       │   │   └── Views
+│       │   │       ├── PostCell.swift
+│       │   │       └── SwiftUI
+│       │   │           ├── ErrorView.swift
+│       │   │           ├── LoadingView.swift
+│       │   │           └── PostCellView.swift
+│       │   ├── PostCoordinator.swift
+│       │   ├── PostExtended.swift
+│       │   ├── Resources
+│       │   │   ├── de.lproj
+│       │   │   │   └── Localizable.strings
+│       │   │   └── en.lproj
+│       │   │       └── Localizable.strings
+│       │   ├── Services
+│       │   │   ├── PostsAPI.swift
+│       │   │   ├── PostsError.swift
+│       │   │   └── PostsServiceProvider.swift
+│       │   └── Translation.swift
+│       └── Tests
+│           ├── Mocks
+│           │   ├── MockPostFactory.swift
+│           │   ├── MockPostsServiceProvider.swift
+│           │   └── MockReachability.swift
+│           ├── PostListViewModelTests.swift
+│           └── PostsServiceProviderTests.swift
+├── Posts.xcworkspace
+├── README.md
+└── project.txt

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Core"
+      name = "Core">
+      <FileRef
+         location = "group:Posts.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Features"
+      name = "Features">
+      <FileRef
+         location = "group:Posts">
+      </FileRef>
+      <FileRef
+         location = "group:Login">
+      </FileRef>
+      <FileRef
+         location = "group:Info">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Commons"
+      name = "Commons">
+      <FileRef
+         location = "group:NetworkModule">
+      </FileRef>
+      <FileRef
+         location = "group:Dependencies">
+      </FileRef>
+      <FileRef
+         location = "group:Utils">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Data"
+      name = "Data">
+      <FileRef
+         location = "group:Models">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Components">
+   </FileRef>
+</Workspace>
